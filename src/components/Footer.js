@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF } from "react-icons/fa";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
@@ -14,16 +15,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
+          <h3></h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+        <h3>Building better tech, one bug at a time.</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/KristyleModin"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -31,19 +32,19 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="" //No Links Yet
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/kristyle-marie-modin-7ba93b356/" 
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,14 +54,25 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.facebook.com/kristyle.modin" 
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaFacebookF />
+              </a>
+            </li>
+
+            {/* <li className="social-icons">
+              <a
+                href="" //No Links Yet
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

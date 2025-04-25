@@ -1,20 +1,24 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/org.jpg";
+import "../../style.css"; // Make sure this is included if not already
 
 function Github() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+    <Row className="justify-content-center pb-3">
+      <h1 className="project-heading pb-4">
+        <strong className="purple">Organizations</strong>
       </h1>
-      <GitHubCalendar
-        username="soumyajit4419"
-        blockSize={15}
-        blockMargin={5}
-        color="#c084f5"
-        fontSize={16}
-      />
+      <Col xs={12} md={8}>
+        <ul className="org-list">
+          <li className="org-item">
+            <img src={myImg} alt="Organization" className="org-image" />
+            <div>
+              <span className="org-title">Quality Assurance Specialist</span>, Samahan SysDev
+            </div>
+          </li>
+        </ul>
+      </Col>
     </Row>
   );
 }

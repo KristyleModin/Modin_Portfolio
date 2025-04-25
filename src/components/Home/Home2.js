@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import { FaFacebookF } from "react-icons/fa";
+
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +21,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              👋 Hi, I’m <b className="purple">Kristyle Marie Modin</b> — a passionate Computer Science student at Ateneo de Davao University. I thrive on building intuitive apps, exploring the power of code, and making technology more accessible and human-centered.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              With a knack for both front-end finesse and back-end logic, I enjoy crafting seamless digital experiences, diving into QA testing, and contributing to community-driven dev projects.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Whether it’s <b className="purple">Flutter</b>, <b className="purple">JavaScript</b>, or a fresh new tech stack, I’m always up for a challenge and eager to learn. Let’s build something great together!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,44 +45,55 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/KristyleModin"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/YOUR_TWITTER"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="www.linkedin.com/in/kristyle-marie-modin-7ba93b356"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.facebook.com/kristyle.modin" 
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
+              {/* <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/YOUR_INSTAGRAM"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
@@ -112,4 +101,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
