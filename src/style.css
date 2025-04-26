@@ -471,7 +471,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(225, 161, 123, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
 .blog-card {
@@ -548,7 +548,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: #F5F2EF !important;
+  color: white !important;
 }
 
 .tech-icons {
