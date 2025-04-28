@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             My name is <span className="purple">Kristyle Marie Modin</span>, a passionate and driven 
-            <span className="purple"> Computer Science student at Ateneo de Davao University (AdDU)</span> 
+            <span className="purple"> Computer Science student at Ateneo de Davao University (AdDU) </span> 
             with a deep appreciation for both technology and creativity. I approach every opportunity with curiosity and dedication—
             whether it’s solving technical problems, contributing to open-source projects, or refining software through quality assurance.
             I am constantly exploring ways to grow as a developer and a critical thinker, while also staying connected to my creative side 

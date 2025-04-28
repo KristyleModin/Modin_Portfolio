@@ -14,7 +14,7 @@ function Github() {
           <li className="org-item">
             <img src={myImg} alt="Organization" className="org-image" />
             <div>
-              <span className="org-title">Quality Assurance Specialist</span>, Samahan SysDev
+              <span className="org-title">Quality Assurance Specialist</span>, SAMAHAN SYSDEV
             </div>
           </li>
         </ul>
