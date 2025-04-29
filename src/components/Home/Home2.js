@@ -65,7 +65,7 @@ function Home2() {
               </li> */}
               <li className="social-icons">
                 <a
-                  href="www.linkedin.com/in/kristyle-marie-modin-7ba93b356"
+                  href="https://www.linkedin.com/in/kristyle-marie-modin-7ba93b356/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
